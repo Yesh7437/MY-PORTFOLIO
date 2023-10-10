@@ -95,7 +95,10 @@ footer .rights{
     color: gray;
     padding: 12px 0;
 }
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 1400px) {
+    body{
+        min-width: fit-content;
+    }
     
     footer{
         display: none;
@@ -114,6 +117,12 @@ footer .rights{
         align-items: center;
     }
     .rightsection{
-        width: 72% !important;
+        width: 721px !important;
+        display: flex;
+        justify-content: center;
+    }
+    .rightsection img{
+        width: 45vw;
+        margin-bottom: 73px;
     }
 }
