@@ -107,10 +107,13 @@ footer .rights{
         flex-direction: column;
     }
     .leftsection{
-        width: 100%;
+        width: 100% !important;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .rightsection{
+        width: 72% !important;
     }
 }
