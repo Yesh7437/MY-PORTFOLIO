@@ -95,7 +95,7 @@ footer .rights{
     color: gray;
     padding: 12px 0;
 }
-/* @media screen and (max-width: 1400px) {
+@media screen and (max-width: 300px) {
 
     body{
         min-width: fit-content;
@@ -123,4 +123,4 @@ footer .rights{
         width: 45vw;
         margin-bottom: 73px;
     }
-} */
+}
